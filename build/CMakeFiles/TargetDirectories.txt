@@ -1,0 +1,9 @@
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/rebuild_cache.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/edit_cache.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/CMakeFiles/rebuild_cache.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/CMakeFiles/kendryte.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/CMakeFiles/edit_cache.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/rebuild_cache.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir
+/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/edit_cache.dir
