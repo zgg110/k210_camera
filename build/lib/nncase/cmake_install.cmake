@@ -1,8 +1,8 @@
-# Install script for directory: /home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase
+# Install script for directory: E:/Estone_liuying/mygithub/k210_camera/lib/nncase
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/usr/local")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/dvp2sdcard")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

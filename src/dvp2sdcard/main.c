@@ -29,6 +29,7 @@
 #include "rgb2bmp.h"
 #include "gpiohs.h"
 #include "iomem.h"
+#include "rtc.h"
 
 /* SPI and DMAC usage
  *
@@ -164,6 +165,12 @@ int main(void)
     gpiohs_set_drive_mode(KEY_GPIONUM, GPIO_DM_INPUT);
     gpiohs_set_pin_edge(KEY_GPIONUM, GPIO_PE_FALLING);
     gpiohs_set_irq(KEY_GPIONUM, 2, irq_key);
+
+    /* RTC init */
+    rtc_init();
+    rtc_timer_set(2021, 5, 21, 23, 30, 50);
+    // rtc_alarm_set(2018, 9, 12, 23, 31, 00);
+    printf("RTC init\n");    
 
     /* LCD init */
     printf("LCD init\n");

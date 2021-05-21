@@ -1,4 +1,4 @@
-set(CMAKE_C_COMPILER "/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc")
+set(CMAKE_C_COMPILER "D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe")
 set(CMAKE_C_COMPILER_ARG1 "")
 set(CMAKE_C_COMPILER_ID "GNU")
 set(CMAKE_C_COMPILER_VERSION "8.2.0")
@@ -16,11 +16,12 @@ set(CMAKE_C_SIMULATE_VERSION "")
 
 
 
-set(CMAKE_AR "/opt/kendryte-toolchain/bin/riscv64-unknown-elf-ar")
-set(CMAKE_C_COMPILER_AR "/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc-ar")
-set(CMAKE_RANLIB "/opt/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib")
-set(CMAKE_C_COMPILER_RANLIB "/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc-ranlib")
-set(CMAKE_LINKER "/opt/kendryte-toolchain/bin/riscv64-unknown-elf-ld")
+set(CMAKE_AR "D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-ar.exe")
+set(CMAKE_C_COMPILER_AR "D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc-ar.exe")
+set(CMAKE_RANLIB "D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-ranlib.exe")
+set(CMAKE_C_COMPILER_RANLIB "D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc-ranlib.exe")
+set(CMAKE_LINKER "D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-ld.exe")
+set(CMAKE_MT "")
 set(CMAKE_COMPILER_IS_GNUCC 1)
 set(CMAKE_C_COMPILER_LOADED 1)
 set(CMAKE_C_COMPILER_WORKS 1)
@@ -68,6 +69,7 @@ endif()
 
 
 
-set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "gcc;c;gloss;gcc")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0;/opt/kendryte-toolchain/riscv64-unknown-elf/lib")
+set(CMAKE_C_IMPLICIT_INCLUDE_DIRECTORIES "D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include;D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed;D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include")
+set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "")
 set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "")

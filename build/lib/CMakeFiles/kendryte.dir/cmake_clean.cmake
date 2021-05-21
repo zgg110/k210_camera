@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/kendryte.dir/bsp/crt.S.obj"
   "CMakeFiles/kendryte.dir/bsp/entry.c.obj"
   "CMakeFiles/kendryte.dir/bsp/entry_user.c.obj"
   "CMakeFiles/kendryte.dir/bsp/interrupt.c.obj"
@@ -30,7 +31,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/kendryte.dir/drivers/uarths.c.obj"
   "CMakeFiles/kendryte.dir/drivers/utils.c.obj"
   "CMakeFiles/kendryte.dir/drivers/wdt.c.obj"
-  "CMakeFiles/kendryte.dir/bsp/crt.S.obj"
   "libkendryte.pdb"
   "libkendryte.a"
 )

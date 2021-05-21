@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ccsbcs.c.obj"
   "CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/diskio.c.obj"
+  "CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ertc.c.obj"
   "CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ff.c.obj"
   "CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/lcd.c.obj"
   "CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/main.c.obj"
@@ -11,6 +12,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/sdcard.c.obj"
   "dvp2sdcard.pdb"
   "dvp2sdcard"
+  "dvp2sdcard.manifest"
 )
 
 # Per-language clean rules from dependency scanning.

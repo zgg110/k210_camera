@@ -1,7 +1,7 @@
 The target system is: Generic -  - 
-The host system is: Linux - 5.4.0-73-generic - x86_64
+The host system is: Windows - 10.0.18363 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: /opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc 
+Compiler: D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe 
 Build flags: ;-mcmodel=medany;-mabi=lp64f;-march=rv64imafc;-fno-common;-ffunction-sections;-fdata-sections;-fstrict-volatile-bitfields;-fno-zero-initialized-in-bss;-ffast-math;-fno-math-errno;-fsingle-precision-constant;-Os;-ggdb;-std=gnu11;-Wno-pointer-to-int-cast;-Wall;-Werror=all;-Wno-error=unused-function;-Wno-error=unused-but-set-variable;-Wno-error=unused-variable;-Wno-error=deprecated-declarations;-Wno-multichar;-Wextra;-Werror=frame-larger-than=32768;-Wno-unused-parameter;-Wno-sign-compare;-Wno-error=missing-braces;-Wno-error=return-type;-Wno-error=pointer-sign;-Wno-missing-braces;-Wno-strict-aliasing;-Wno-implicit-fallthrough;-Wno-missing-field-initializers;-Wno-int-to-pointer-cast;-Wno-error=comment;-Wno-error=logical-not-parentheses;-Wno-error=duplicate-decl-specifier;-Wno-error=parentheses;-Wno-old-style-declaration
 Id flags:  
 
@@ -11,10 +11,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/3.14.4/CompilerIdC/a.out"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: /opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++ 
+Compiler: D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe 
 Build flags: ;-mcmodel=medany;-mabi=lp64f;-march=rv64imafc;-fno-common;-ffunction-sections;-fdata-sections;-fstrict-volatile-bitfields;-fno-zero-initialized-in-bss;-ffast-math;-fno-math-errno;-fsingle-precision-constant;-Os;-ggdb;-std=gnu++17;-Wall;-Werror=all;-Wno-error=unused-function;-Wno-error=unused-but-set-variable;-Wno-error=unused-variable;-Wno-error=deprecated-declarations;-Wno-multichar;-Wextra;-Werror=frame-larger-than=32768;-Wno-unused-parameter;-Wno-sign-compare;-Wno-error=missing-braces;-Wno-error=return-type;-Wno-error=pointer-sign;-Wno-missing-braces;-Wno-strict-aliasing;-Wno-implicit-fallthrough;-Wno-missing-field-initializers;-Wno-int-to-pointer-cast;-Wno-error=comment;-Wno-error=logical-not-parentheses;-Wno-error=duplicate-decl-specifier;-Wno-error=parentheses
 Id flags:  
 
@@ -24,105 +24,173 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
 
-The CXX compiler identification is GNU, found in "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+The CXX compiler identification is GNU, found in "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/3.14.4/CompilerIdCXX/a.out"
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+riscv64-unknown-elf-gcc.exe (GCC) 8.2.0
+Copyright (C) 2018 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_f9439/fast"
-/usr/bin/make -f CMakeFiles/cmTC_f9439.dir/build.make CMakeFiles/cmTC_f9439.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -o CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_f9439
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9439.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -v CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj  -o cmTC_f9439 
-Using built-in specs.
-COLLECT_GCC=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc
-COLLECT_LTO_WRAPPER=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper
-Target: riscv64-unknown-elf
-Configured with: /mnt/d/Work/Repository/maix-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
-Thread model: posix
-gcc version 8.2.0 (GCC) 
-COMPILER_PATH=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
-LIBRARY_PATH=/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/:/opt/kendryte-toolchain/riscv64-unknown-elf/lib/
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'cmTC_f9439'
- /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/collect2 -plugin /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin.so -plugin-opt=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZv87zZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf -melf64lriscv -o cmTC_f9439 /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0 -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -L/opt/kendryte-toolchain/riscv64-unknown-elf/lib CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'cmTC_f9439'
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_0cbfd/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_0cbfd.dir/build.make CMakeFiles/cmTC_0cbfd.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -v -o CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj   -c "D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCCompilerABI.c"
+Using built-in specs.
+COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe
+Target: riscv64-unknown-elf
+Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj' '-c'
+ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/cc1.exe -quiet -v -iprefix d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/ -isysroot d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcmodel=medany -mabi=lp64f -march=rv64imafc -auxbase-strip CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj -ggdb -Os -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wimplicit-fallthrough=0 -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration -std=gnu11 -version -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -o C:\Users\Estone\AppData\Local\Temp\cciRRNbc.s
+GNU C11 (GCC) version 8.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include"
+ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../include"
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed"
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include"
+ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include
+End of search list.
+GNU C11 (GCC) version 8.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: a6ca830d3d7c8f57936b94183fec00c7
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj' '-c'
+ d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/as.exe -v --traditional-format -march=rv64imafc -mabi=lp64f -o CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj C:\Users\Estone\AppData\Local\Temp\cciRRNbc.s
+GNU assembler version 2.31.51 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.31.51
+COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../libexec/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../lib/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj' '-c'
+Linking C executable cmTC_0cbfd
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -v "CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj"   -o cmTC_0cbfd 
+Using built-in specs.
+COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe
+COLLECT_LTO_WRAPPER=d:/program\ files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe
+Target: riscv64-unknown-elf
+Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../libexec/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../lib/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'cmTC_0cbfd'
+ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Estone\AppData\Local\Temp\ccqsPsbi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_0cbfd d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/program files/kendryte-toolchain/bin/../lib/gcc -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'cmTC_0cbfd'
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include]
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include]
+  end of search list found
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include] ==> [D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include]
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed] ==> [D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include] ==> [D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include]
+  implicit include dirs: [D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include;D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed;D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include]
 
 
 Parsed C implicit link information from above output:
-  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_f9439/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_f9439.dir/build.make CMakeFiles/cmTC_f9439.dir/build]
-  ignore line: [make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building C object CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj]
-  ignore line: [/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -o CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_f9439]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f9439.dir/link.txt --verbose=1]
-  ignore line: [/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -v CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj  -o cmTC_f9439 ]
+  ignore line: [Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_0cbfd/fast ]
+  ignore line: [D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_0cbfd.dir/build.make CMakeFiles/cmTC_0cbfd.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -v -o CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj   -c "D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc]
-  ignore line: [COLLECT_LTO_WRAPPER=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper]
+  ignore line: [COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe]
   ignore line: [Target: riscv64-unknown-elf]
-  ignore line: [Configured with: /mnt/d/Work/Repository/maix-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
-  ignore line: [LIBRARY_PATH=/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/:/opt/kendryte-toolchain/riscv64-unknown-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'cmTC_f9439']
-  link line: [ /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/collect2 -plugin /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin.so -plugin-opt=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZv87zZ.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf -melf64lriscv -o cmTC_f9439 /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0 -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -L/opt/kendryte-toolchain/riscv64-unknown-elf/lib CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
-    arg [/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccZv87zZ.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf] ==> ignore
-    arg [-melf64lriscv] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_f9439] ==> ignore
-    arg [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
-    arg [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> ignore
-    arg [-L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0] ==> dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0]
-    arg [-L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib]
-    arg [-L/opt/kendryte-toolchain/riscv64-unknown-elf/lib] ==> dir [/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
-    arg [CMakeFiles/cmTC_f9439.dir/CMakeCCompilerABI.c.obj] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [--start-group] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgloss] ==> lib [gloss]
-    arg [--end-group] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o] ==> ignore
-  collapse library dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0] ==> [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0]
-  collapse library dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> [/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
-  collapse library dir [/opt/kendryte-toolchain/riscv64-unknown-elf/lib] ==> [/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
-  implicit libs: [gcc;c;gloss;gcc]
-  implicit dirs: [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0;/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/cc1.exe -quiet -v -iprefix d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/ -isysroot d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mcmodel=medany -mabi=lp64f -march=rv64imafc -auxbase-strip CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj -ggdb -Os -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wimplicit-fallthrough=0 -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration -std=gnu11 -version -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -o C:\Users\Estone\AppData\Local\Temp\cciRRNbc.s]
+  ignore line: [GNU C11 (GCC) version 8.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include"]
+  ignore line: [ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include"]
+  ignore line: [ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C11 (GCC) version 8.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: a6ca830d3d7c8f57936b94183fec00c7]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [ d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/as.exe -v --traditional-format -march=rv64imafc -mabi=lp64f -o CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj C:\Users\Estone\AppData\Local\Temp\cciRRNbc.s]
+  ignore line: [GNU assembler version 2.31.51 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.31.51]
+  ignore line: [COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../libexec/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj' '-c']
+  ignore line: [Linking C executable cmTC_0cbfd]
+  ignore line: ["D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -v "CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj"   -o cmTC_0cbfd ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/program\ files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../libexec/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'cmTC_0cbfd']
+  ignore line: [ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Estone\AppData\Local\Temp\ccqsPsbi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_0cbfd d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/program files/kendryte-toolchain/bin/../lib/gcc -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_0cbfd.dir/CMakeCCompilerABI.c.obj -lgcc --start-group -lc -lgloss --end-group -lgcc d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu11' '-Wno-pointer-to-int-cast' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-Wno-old-style-declaration' '-v' '-o' 'cmTC_0cbfd']
+  ignore line: [make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
   implicit fwks: []
 
 
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ea5c1/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ea5c1.dir/build.make CMakeFiles/cmTC_ea5c1.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_ea5c1.dir/feature_tests.c.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -std=c11 -o CMakeFiles/cmTC_ea5c1.dir/feature_tests.c.obj   -c /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_ea5c1
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ea5c1.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration     CMakeFiles/cmTC_ea5c1.dir/feature_tests.c.obj  -o cmTC_ea5c1 
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_0aedc/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_0aedc.dir/build.make CMakeFiles/cmTC_0aedc.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0aedc.dir/feature_tests.c.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -std=c11 -o CMakeFiles/cmTC_0aedc.dir/feature_tests.c.obj   -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_0aedc
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration     "CMakeFiles/cmTC_0aedc.dir/feature_tests.c.obj"   -o cmTC_0aedc 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -132,17 +200,16 @@ make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/bu
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_7e8c4/fast"
-/usr/bin/make -f CMakeFiles/cmTC_7e8c4.dir/build.make CMakeFiles/cmTC_7e8c4.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_7e8c4.dir/feature_tests.c.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -std=c99 -o CMakeFiles/cmTC_7e8c4.dir/feature_tests.c.obj   -c /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_7e8c4
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7e8c4.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration     CMakeFiles/cmTC_7e8c4.dir/feature_tests.c.obj  -o cmTC_7e8c4 
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_ad238/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_ad238.dir/build.make CMakeFiles/cmTC_ad238.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ad238.dir/feature_tests.c.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -std=c99 -o CMakeFiles/cmTC_ad238.dir/feature_tests.c.obj   -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_ad238
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration     "CMakeFiles/cmTC_ad238.dir/feature_tests.c.obj"   -o cmTC_ad238 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -152,17 +219,16 @@ make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/bu
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c850a/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c850a.dir/build.make CMakeFiles/cmTC_c850a.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_c850a.dir/feature_tests.c.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -std=c90 -o CMakeFiles/cmTC_c850a.dir/feature_tests.c.obj   -c /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/feature_tests.c
-Linking C executable cmTC_c850a
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c850a.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-gcc  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration     CMakeFiles/cmTC_c850a.dir/feature_tests.c.obj  -o cmTC_c850a 
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_380c2/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_380c2.dir/build.make CMakeFiles/cmTC_380c2.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_380c2.dir/feature_tests.c.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration    -std=c90 -o CMakeFiles/cmTC_380c2.dir/feature_tests.c.obj   -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.c
+Linking C executable cmTC_380c2
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-gcc.exe"  -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu11 -Wno-pointer-to-int-cast -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -Wno-old-style-declaration     "CMakeFiles/cmTC_380c2.dir/feature_tests.c.obj"   -o cmTC_380c2 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -170,104 +236,254 @@ make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/bu
     Feature record: C_FEATURE:0c_static_assert
     Feature record: C_FEATURE:0c_variadic_macros
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_32047/fast"
-/usr/bin/make -f CMakeFiles/cmTC_32047.dir/build.make CMakeFiles/cmTC_32047.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -o CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
-Linking CXX executable cmTC_32047
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32047.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_32047 
-Using built-in specs.
-COLLECT_GCC=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++
-COLLECT_LTO_WRAPPER=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper
-Target: riscv64-unknown-elf
-Configured with: /mnt/d/Work/Repository/maix-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
-Thread model: posix
-gcc version 8.2.0 (GCC) 
-COMPILER_PATH=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
-LIBRARY_PATH=/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/:/opt/kendryte-toolchain/riscv64-unknown-elf/lib/
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_32047'
- /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/collect2 -plugin /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin.so -plugin-opt=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc74thGm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf -melf64lriscv -o cmTC_32047 /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0 -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -L/opt/kendryte-toolchain/riscv64-unknown-elf/lib CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_32047'
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_0d7b3/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_0d7b3.dir/build.make CMakeFiles/cmTC_0d7b3.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v -o CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp"
+Using built-in specs.
+COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe
+Target: riscv64-unknown-elf
+Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/cc1plus.exe -quiet -v -iprefix d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/ -isysroot d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcmodel=medany -mabi=lp64f -march=rv64imafc -auxbase-strip CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj -ggdb -Os -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wimplicit-fallthrough=0 -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -std=gnu++17 -version -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -o C:\Users\Estone\AppData\Local\Temp\ccTBDfh9.s
+GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0"
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward"
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include"
+ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../include"
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed"
+ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include"
+ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed
+ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include
+End of search list.
+GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)
+	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP
+
+GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096
+Compiler executable checksum: f885d8d666692944b3409b804e151e87
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+ d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/as.exe -v --traditional-format -march=rv64imafc -mabi=lp64f -o CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Estone\AppData\Local\Temp\ccTBDfh9.s
+GNU assembler version 2.31.51 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.31.51
+COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../libexec/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../lib/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj' '-c'
+Linking CXX executable cmTC_0d7b3
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v "CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_0d7b3 
+Using built-in specs.
+COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe
+COLLECT_LTO_WRAPPER=d:/program\ files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe
+Target: riscv64-unknown-elf
+Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany'
+Thread model: posix
+gcc version 8.2.0 (GCC) 
+COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../libexec/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/
+LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/;d:/program files/kendryte-toolchain/bin/../lib/gcc/;d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/;d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_0d7b3'
+ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Estone\AppData\Local\Temp\cczczPxi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_0d7b3 d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/program files/kendryte-toolchain/bin/../lib/gcc -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_0d7b3'
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0]
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf]
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward]
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include]
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+    add: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include]
+  end of search list found
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0] ==> [D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include/c++/8.2.0]
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf] ==> [D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf]
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward] ==> [D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include/c++/8.2.0/backward]
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include] ==> [D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include]
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed] ==> [D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+  collapse include dir [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include] ==> [D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include]
+  implicit include dirs: [D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include/c++/8.2.0;D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf;D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include/c++/8.2.0/backward;D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include;D:/Program Files/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed;D:/Program Files/kendryte-toolchain/riscv64-unknown-elf/include]
 
 
 Parsed CXX implicit link information from above output:
-  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp]
+  link line regex: [^( *|.*[/\])(riscv64-unknown-elf-ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_32047/fast"]
-  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_32047.dir/build.make CMakeFiles/cmTC_32047.dir/build]
-  ignore line: [make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp']
-  ignore line: [Building CXX object CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj]
-  ignore line: [/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -o CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
-  ignore line: [Linking CXX executable cmTC_32047]
-  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_32047.dir/link.txt --verbose=1]
-  ignore line: [/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj  -o cmTC_32047 ]
+  ignore line: [Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_0d7b3/fast ]
+  ignore line: [D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_0d7b3.dir/build.make CMakeFiles/cmTC_0d7b3.dir/build]
+  ignore line: [make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v -o CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj -c "D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++]
-  ignore line: [COLLECT_LTO_WRAPPER=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper]
+  ignore line: [COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe]
   ignore line: [Target: riscv64-unknown-elf]
-  ignore line: [Configured with: /mnt/d/Work/Repository/maix-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
   ignore line: [Thread model: posix]
   ignore line: [gcc version 8.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
-  ignore line: [LIBRARY_PATH=/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/:/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/:/opt/kendryte-toolchain/riscv64-unknown-elf/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_32047']
-  link line: [ /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/collect2 -plugin /opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin.so -plugin-opt=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc74thGm.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf -melf64lriscv -o cmTC_32047 /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0 -L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -L/opt/kendryte-toolchain/riscv64-unknown-elf/lib CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc /opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
-    arg [/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/collect2] ==> ignore
-    arg [-plugin] ==> ignore
-    arg [/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin.so] ==> ignore
-    arg [-plugin-opt=/opt/kendryte-toolchain/libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/cc74thGm.res] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lc] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgloss] ==> ignore
-    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
-    arg [--sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf] ==> ignore
-    arg [-melf64lriscv] ==> ignore
-    arg [-o] ==> ignore
-    arg [cmTC_32047] ==> ignore
-    arg [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o] ==> ignore
-    arg [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o] ==> ignore
-    arg [-L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0] ==> dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0]
-    arg [-L/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib]
-    arg [-L/opt/kendryte-toolchain/riscv64-unknown-elf/lib] ==> dir [/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
-    arg [CMakeFiles/cmTC_32047.dir/CMakeCXXCompilerABI.cpp.obj] ==> ignore
-    arg [-lstdc++] ==> lib [stdc++]
-    arg [-lm] ==> lib [m]
-    arg [-lgcc] ==> lib [gcc]
-    arg [--start-group] ==> ignore
-    arg [-lc] ==> lib [c]
-    arg [-lgloss] ==> lib [gloss]
-    arg [--end-group] ==> ignore
-    arg [-lgcc] ==> lib [gcc]
-    arg [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o] ==> ignore
-  collapse library dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0] ==> [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0]
-  collapse library dir [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib] ==> [/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
-  collapse library dir [/opt/kendryte-toolchain/riscv64-unknown-elf/lib] ==> [/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
-  implicit libs: [stdc++;m;gcc;c;gloss;gcc]
-  implicit dirs: [/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0;/opt/kendryte-toolchain/riscv64-unknown-elf/lib]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/cc1plus.exe -quiet -v -iprefix d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/ -isysroot d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf D:/Program Files/cmake-3.14.4-win64-x64/share/cmake-3.14/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mcmodel=medany -mabi=lp64f -march=rv64imafc -auxbase-strip CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj -ggdb -Os -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wimplicit-fallthrough=0 -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses -std=gnu++17 -version -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -o C:\Users\Estone\AppData\Local\Temp\ccTBDfh9.s]
+  ignore line: [GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0"]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf"]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward"]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include"]
+  ignore line: [ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/opt/kendryte-toolchain/lib/gcc/riscv64-unknown-elf/8.2.0/../../../../include"]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "d:/program files/kendryte-toolchain/lib/gcc/../../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include"]
+  ignore line: [ignoring nonexistent directory "d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elfC:/Users/sunnycase/AppData/Local/Programs/msys64/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/riscv64-unknown-elf]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include/c++/8.2.0/backward]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/include-fixed]
+  ignore line: [ d:\program files\kendryte-toolchain\bin\../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++17 (GCC) version 8.2.0 (riscv64-unknown-elf)]
+  ignore line: [	compiled by GNU C version 8.2.1 20181214, GMP version 6.1.2, MPFR version 4.0.1, MPC version 1.1.0, isl version isl-0.19-GMP]
+  ignore line: []
+  ignore line: [GGC heuristics: --param ggc-min-expand=30 --param ggc-min-heapsize=4096]
+  ignore line: [Compiler executable checksum: f885d8d666692944b3409b804e151e87]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [ d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/as.exe -v --traditional-format -march=rv64imafc -mabi=lp64f -o CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Estone\AppData\Local\Temp\ccTBDfh9.s]
+  ignore line: [GNU assembler version 2.31.51 (riscv64-unknown-elf) using BFD version (GNU Binutils) 2.31.51]
+  ignore line: [COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../libexec/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj' '-c']
+  ignore line: [Linking CXX executable cmTC_0d7b3]
+  ignore line: ["D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -v "CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj"   -o cmTC_0d7b3 ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=d:/program\ files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe]
+  ignore line: [Target: riscv64-unknown-elf]
+  ignore line: [Configured with: /d/Work/Repository/kendryte-gnu-toolchain/riscv-gcc/configure --target=riscv64-unknown-elf --prefix=/opt/kendryte-toolchain --disable-shared --enable-threads=posix --enable-languages=c,c++ --enable-libatomic --with-system-zlib --enable-tls --with-newlib --with-sysroot=/opt/kendryte-toolchain/riscv64-unknown-elf --with-native-system-header-dir=/include --disable-libmudflap --disable-libssp --disable-libquadmath --disable-libgomp --disable-nls --src=.././riscv-gcc --enable-checking=yes --disable-multilib --with-abi=lp64f --with-arch=rv64imafc 'CFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections  -mcmodel=medany' 'CXXFLAGS_FOR_TARGET=-Os -ffunction-sections -fdata-sections -mcmodel=medany']
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.2.0 (GCC) ]
+  ignore line: [COMPILER_PATH=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../libexec/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/bin/]
+  ignore line: [LIBRARY_PATH=d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/]
+  ignore line: [d:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_0d7b3']
+  ignore line: [ d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/collect2.exe -plugin d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/liblto_plugin-0.dll -plugin-opt=d:/program files/kendryte-toolchain/bin/../libexec/gcc/riscv64-unknown-elf/8.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\Users\Estone\AppData\Local\Temp\cczczPxi.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgloss -plugin-opt=-pass-through=-lgcc --sysroot=d:\program files\kendryte-toolchain\bin\../riscv64-unknown-elf -melf64lriscv -o cmTC_0d7b3 d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib/crt0.o d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtbegin.o -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0 -Ld:/program files/kendryte-toolchain/bin/../lib/gcc -Ld:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/../../../../riscv64-unknown-elf/lib -Ld:/program files/kendryte-toolchain/bin/../riscv64-unknown-elf/lib CMakeFiles/cmTC_0d7b3.dir/CMakeCXXCompilerABI.cpp.obj -lstdc++ -lm -lgcc --start-group -lc -lgloss --end-group -lgcc d:/program files/kendryte-toolchain/bin/../lib/gcc/riscv64-unknown-elf/8.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-mcmodel=medany' '-mabi=lp64f' '-march=rv64imafc' '-fno-common' '-ffunction-sections' '-fdata-sections' '-fstrict-volatile-bitfields' '-fno-zero-initialized-in-bss' '-ffast-math' '-fno-math-errno' '-fsingle-precision-constant' '-Os' '-ggdb' '-std=gnu++17' '-Wall' '-Werror=all' '-Wno-error=unused-function' '-Wno-error=unused-but-set-variable' '-Wno-error=unused-variable' '-Wno-error=deprecated-declarations' '-Wno-multichar' '-Wextra' '-Werror=frame-larger-than=32768' '-Wno-unused-parameter' '-Wno-sign-compare' '-Wno-error=missing-braces' '-Wno-error=return-type' '-Wno-error=pointer-sign' '-Wno-missing-braces' '-Wno-strict-aliasing' '-Wimplicit-fallthrough=0' '-Wno-missing-field-initializers' '-Wno-int-to-pointer-cast' '-Wno-error=comment' '-Wno-error=logical-not-parentheses' '-Wno-error=duplicate-decl-specifier' '-Wno-error=parentheses' '-v' '-o' 'cmTC_0d7b3']
+  ignore line: [make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp']
+  ignore line: []
+  implicit libs: []
+  implicit dirs: []
   implicit fwks: []
 
 
 
 
-Detecting CXX [-std=c++1z] compiler features compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Detecting CXX [-std=c++2a] compiler features compiled with the following output:
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_77a37/fast"
-/usr/bin/make -f CMakeFiles/cmTC_77a37.dir/build.make CMakeFiles/cmTC_77a37.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_77a37.dir/feature_tests.cxx.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++1z -o CMakeFiles/cmTC_77a37.dir/feature_tests.cxx.obj -c /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_77a37
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77a37.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     CMakeFiles/cmTC_77a37.dir/feature_tests.cxx.obj  -o cmTC_77a37 
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_62afa/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_62afa.dir/build.make CMakeFiles/cmTC_62afa.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62afa.dir/feature_tests.cxx.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++2a -o CMakeFiles/cmTC_62afa.dir/feature_tests.cxx.obj -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_62afa
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     "CMakeFiles/cmTC_62afa.dir/feature_tests.cxx.obj"   -o cmTC_62afa 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++17] compiler features compiled with the following output:
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_55a7d/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_55a7d.dir/build.make CMakeFiles/cmTC_55a7d.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_55a7d.dir/feature_tests.cxx.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++17 -o CMakeFiles/cmTC_55a7d.dir/feature_tests.cxx.obj -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_55a7d
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     "CMakeFiles/cmTC_55a7d.dir/feature_tests.cxx.obj"   -o cmTC_55a7d 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -330,17 +546,16 @@ make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/bu
 
 
 Detecting CXX [-std=c++14] compiler features compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_00bb8/fast"
-/usr/bin/make -f CMakeFiles/cmTC_00bb8.dir/build.make CMakeFiles/cmTC_00bb8.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_00bb8.dir/feature_tests.cxx.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++14 -o CMakeFiles/cmTC_00bb8.dir/feature_tests.cxx.obj -c /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_00bb8
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_00bb8.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     CMakeFiles/cmTC_00bb8.dir/feature_tests.cxx.obj  -o cmTC_00bb8 
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_1b2e5/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_1b2e5.dir/build.make CMakeFiles/cmTC_1b2e5.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1b2e5.dir/feature_tests.cxx.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++14 -o CMakeFiles/cmTC_1b2e5.dir/feature_tests.cxx.obj -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_1b2e5
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     "CMakeFiles/cmTC_1b2e5.dir/feature_tests.cxx.obj"   -o cmTC_1b2e5 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
@@ -403,17 +618,16 @@ make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/bu
 
 
 Detecting CXX [-std=c++11] compiler features compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_137ce/fast"
-/usr/bin/make -f CMakeFiles/cmTC_137ce.dir/build.make CMakeFiles/cmTC_137ce.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_137ce.dir/feature_tests.cxx.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++11 -o CMakeFiles/cmTC_137ce.dir/feature_tests.cxx.obj -c /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_137ce
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_137ce.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     CMakeFiles/cmTC_137ce.dir/feature_tests.cxx.obj  -o cmTC_137ce 
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_f3585/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_f3585.dir/build.make CMakeFiles/cmTC_f3585.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f3585.dir/feature_tests.cxx.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++11 -o CMakeFiles/cmTC_f3585.dir/feature_tests.cxx.obj -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f3585
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     "CMakeFiles/cmTC_f3585.dir/feature_tests.cxx.obj"   -o cmTC_f3585 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
@@ -476,17 +690,16 @@ make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/bu
 
 
 Detecting CXX [-std=c++98] compiler features compiled with the following output:
-Change Dir: /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp
+Change Dir: E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_c7ea2/fast"
-/usr/bin/make -f CMakeFiles/cmTC_c7ea2.dir/build.make CMakeFiles/cmTC_c7ea2.dir/build
-make[1]: Entering directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
-Building CXX object CMakeFiles/cmTC_c7ea2.dir/feature_tests.cxx.obj
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++98 -o CMakeFiles/cmTC_c7ea2.dir/feature_tests.cxx.obj -c /home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/feature_tests.cxx
-Linking CXX executable cmTC_c7ea2
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c7ea2.dir/link.txt --verbose=1
-/opt/kendryte-toolchain/bin/riscv64-unknown-elf-g++   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     CMakeFiles/cmTC_c7ea2.dir/feature_tests.cxx.obj  -o cmTC_c7ea2 
-make[1]: Leaving directory '/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/CMakeTmp'
+Run Build Command(s):D:/Program Files/kendryte-toolchain/bin/make.exe cmTC_f0328/fast 
+D:/Program Files/kendryte-toolchain/bin/make.exe -f CMakeFiles/cmTC_f0328.dir/build.make CMakeFiles/cmTC_f0328.dir/build
+make.exe[1]: Entering directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f0328.dir/feature_tests.cxx.obj
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"    -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses    -std=c++98 -o CMakeFiles/cmTC_f0328.dir/feature_tests.cxx.obj -c E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f0328
+"D:/Program Files/kendryte-toolchain/bin/riscv64-unknown-elf-g++.exe"   -mcmodel=medany -mabi=lp64f -march=rv64imafc -fno-common -ffunction-sections -fdata-sections -fstrict-volatile-bitfields -fno-zero-initialized-in-bss -ffast-math -fno-math-errno -fsingle-precision-constant -Os -ggdb -std=gnu++17 -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-but-set-variable -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wno-multichar -Wextra -Werror=frame-larger-than=32768 -Wno-unused-parameter -Wno-sign-compare -Wno-error=missing-braces -Wno-error=return-type -Wno-error=pointer-sign -Wno-missing-braces -Wno-strict-aliasing -Wno-implicit-fallthrough -Wno-missing-field-initializers -Wno-int-to-pointer-cast -Wno-error=comment -Wno-error=logical-not-parentheses -Wno-error=duplicate-decl-specifier -Wno-error=parentheses     "CMakeFiles/cmTC_f0328.dir/feature_tests.cxx.obj"   -o cmTC_f0328 
+make.exe[1]: Leaving directory 'E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/CMakeTmp'
 
 
     Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers

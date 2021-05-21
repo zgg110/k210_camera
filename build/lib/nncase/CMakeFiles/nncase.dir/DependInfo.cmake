@@ -4,13 +4,13 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/nncase.cpp" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/cpu/cpu_ops.cpp" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/interpreter.cpp" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/kernel_registry.cpp" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/lib/nncase/nncase.cpp" "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/nncase.cpp.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/cpu/cpu_ops.cpp" "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/runtime/cpu/cpu_ops.cpp.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/interpreter.cpp" "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/runtime/interpreter.cpp.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/k210/interpreter.cpp" "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/runtime/k210/interpreter.cpp.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/k210/k210_ops.cpp" "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/runtime/k210/k210_ops.cpp.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/kernel_registry.cpp" "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/runtime/kernel_registry.cpp.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/neutral/neutral_ops.cpp" "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/runtime/neutral/neutral_ops.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

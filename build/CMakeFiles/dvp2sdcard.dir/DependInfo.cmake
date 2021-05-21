@@ -4,16 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/ccsbcs.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ccsbcs.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/diskio.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/diskio.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/ff.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ff.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/lcd.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/lcd.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/main.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/main.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/nt35310.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/nt35310.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/ov2640.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ov2640.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/ov5640.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ov5640.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/rgb2bmp.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/rgb2bmp.c.obj"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/src/dvp2sdcard/sdcard.c" "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/sdcard.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/ccsbcs.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ccsbcs.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/diskio.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/diskio.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/ertc.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ertc.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/ff.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ff.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/lcd.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/lcd.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/main.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/main.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/nt35310.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/nt35310.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/ov2640.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ov2640.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/ov5640.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/ov5640.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/rgb2bmp.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/rgb2bmp.c.obj"
+  "E:/Estone_liuying/mygithub/k210_camera/src/dvp2sdcard/sdcard.c" "E:/Estone_liuying/mygithub/k210_camera/build/CMakeFiles/dvp2sdcard.dir/src/dvp2sdcard/sdcard.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 
@@ -52,8 +53,8 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/CMakeFiles/kendryte.dir/DependInfo.cmake"
-  "/home/estone-ying/K210prj/kendryte-standalone-sdk/build/lib/nncase/CMakeFiles/nncase.dir/DependInfo.cmake"
+  "E:/Estone_liuying/mygithub/k210_camera/build/lib/CMakeFiles/kendryte.dir/DependInfo.cmake"
+  "E:/Estone_liuying/mygithub/k210_camera/build/lib/nncase/CMakeFiles/nncase.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

@@ -268,7 +268,7 @@ cstdio
 stdexcept
 -
 
-/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/nncase.cpp
+E:/Estone_liuying/mygithub/k210_camera/lib/nncase/nncase.cpp
 nncase.h
 -
 kernels/k210/k210_kernels.h
@@ -282,7 +282,7 @@ cstring
 utils.h
 -
 
-/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/cpu/cpu_ops.cpp
+E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/cpu/cpu_ops.cpp
 kernels/cpu/cpu_kernels.h
 -
 runtime/kernel_registry.h
@@ -290,7 +290,7 @@ runtime/kernel_registry.h
 runtime/cpu/cpu_ops_body.h
 -
 
-/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/interpreter.cpp
+E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/interpreter.cpp
 cassert
 -
 iostream
@@ -300,13 +300,13 @@ runtime/interpreter.h
 runtime/kernel_registry.h
 -
 
-/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/k210/interpreter.cpp
+E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/k210/interpreter.cpp
 runtime/k210/interpreter.h
 -
 sysctl.h
 -
 
-/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/k210/k210_ops.cpp
+E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/k210/k210_ops.cpp
 kernels/k210/k210_kernels.h
 -
 runtime/k210/k210_ops_body.h
@@ -318,7 +318,7 @@ dmac.h
 sysctl.h
 -
 
-/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/kernel_registry.cpp
+E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/kernel_registry.cpp
 runtime/cpu/cpu_ops_body.h
 -
 runtime/k210/k210_ops_body.h
@@ -334,7 +334,7 @@ runtime/runtime_op.def
 runtime/runtime_op.def
 -
 
-/home/estone-ying/K210prj/kendryte-standalone-sdk/lib/nncase/runtime/neutral/neutral_ops.cpp
+E:/Estone_liuying/mygithub/k210_camera/lib/nncase/runtime/neutral/neutral_ops.cpp
 kernels/neutral/neutral_kernels.h
 -
 runtime/kernel_registry.h

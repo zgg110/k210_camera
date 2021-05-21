@@ -47,4 +47,9 @@ You will get 2 key files, `hello_world` and `hello_world.bin`.
 1. If you are using JLink to run or debug your program, use `hello_world`
 2. If you want to flash it in UOG, using `hello_world.bin`, then using flash-tool(s) burn <ProjectName>.bin to your flash.
 
-This is very important, don't make a mistake in files.
+This is very important, don't make a mistake in files.  
+
+### 代码解释  
+
+1. 初次使用开发板写入拍照代码，思路为启动摄像头，当红外遇到闯入时进行拍照，显示在LCD上  
+2. 
